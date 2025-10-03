@@ -24,7 +24,7 @@ if method == 'LBPH': emotion_recognizer = cv2.face.LBPHFaceRecognizer_create()
 emotion_recognizer.read('modelo'+method+'.xml')
 # --------------------------------------------------------------------------------
 
-dataPath = 'C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'C:/Agregar/tu/ruta/Data' #Cambia a la ruta donde hayas almacenado Data
 imagePaths = os.listdir(dataPath)
 print('imagePaths=',imagePaths)
 
