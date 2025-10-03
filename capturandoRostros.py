@@ -10,7 +10,7 @@ import imutils
 emotionName = 'Sorpresa'
 #emotionName = 'Tristeza'
 
-dataPath = 'C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'C:/Agregar/tu/ruta/Data' #Cambia a la ruta donde hayas almacenado Data
 emotionsPath = dataPath + '/' + emotionName
 
 if not os.path.exists(emotionsPath):
