@@ -6,10 +6,10 @@ import numpy as np
 
 def emotionImage(emotion):
 	# Emojis
-	if emotion == 'Felicidad': image = cv2.imread('C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Emojis/felicidad.png')
-	if emotion == 'Enojo': image = cv2.imread('C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Emojis/enojo.png')
-	if emotion == 'Sorpresa': image = cv2.imread('C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Emojis/sorpresa.png')
-	if emotion == 'Tristeza': image = cv2.imread('C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Emojis/tristeza.png')
+	if emotion == 'Felicidad': image = cv2.imread('C:/Agregar/tu/ruta/FER/Emojis/felicidad.png')
+	if emotion == 'Enojo': image = cv2.imread('C:/Agregar/tu/ruta/FER/Emojis/enojo.png')
+	if emotion == 'Sorpresa': image = cv2.imread('C:/Agregar/tu/ruta/FER/Emojis/sorpresa.png')
+	if emotion == 'Tristeza': image = cv2.imread('C:/Agregar/tu/ruta/FER/Emojis/tristeza.png')
 	return image
 
 # ----------- Métodos usados para el entrenamiento y lectura del modelo ----------
