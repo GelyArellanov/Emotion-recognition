@@ -20,7 +20,7 @@ def obtenerModelo(method,facesData,labels):
 	# Almacenando el modelo obtenido
 	emotion_recognizer.write("modelo"+method+".xml")
 
-dataPath = 'C:/Users/maria/Documents/Talleres-Conferencias/Taller-CONIMI2025/FER/Data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'C:/Agregar/tu/ruta/Data' #Cambia a la ruta donde hayas almacenado Data
 emotionsList = os.listdir(dataPath)
 print('Lista de personas: ', emotionsList)
 
